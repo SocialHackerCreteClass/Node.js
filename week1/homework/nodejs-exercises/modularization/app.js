@@ -7,6 +7,6 @@ numbers = [
     '1236'
 ]
 
-numbers.forEach((el => {
+numbers.forEach(el => {
     console.log(padLeft(el, 4, '_'))
-}))
+})
