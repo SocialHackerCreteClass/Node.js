@@ -4,7 +4,7 @@ const express = require('express')
 const isBlank = require('./utils')
 
 const app = express()
-const port = process.env.port || 3000
+const port = 3000
 
 app.use(express.json())
 
