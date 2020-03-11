@@ -1,0 +1,20 @@
+{
+  "name": "hack-your-temperature",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js -e handlebars,js"
+  },
+  "keywords": [],
+  "author": "Konstantinos Antoniadis",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2"
+  }
+}
