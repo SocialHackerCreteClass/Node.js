@@ -14,10 +14,10 @@ app.get('/', (req, res) => {
     res.render('./layouts/index');
 });
 
-app.get('/weather', (req, res) => {
-    const cityName = req.query.cityName;
+app.post('/weather', (req, res) => {
+    const cityName = req.body.cityName;
     res.send(cityName);
-});
+})
 
 
 app.listen(3000, () => {
