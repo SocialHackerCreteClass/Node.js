@@ -17,7 +17,8 @@ app.get('/', (req, res) => {
 app.post('/weather', (req, res) => {
     const cityName = req.body.cityName;
     res.send(cityName);
-})
+});
+
 
 
 app.listen(3000, () => {
