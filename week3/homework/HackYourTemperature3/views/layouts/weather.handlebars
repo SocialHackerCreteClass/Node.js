@@ -1,0 +1,33 @@
+<div class="container">
+    <a href="/" class="back__link">Back</a>
+    <div class="main__container">
+        <div class="subcontainer1">
+            <h1 class="city__name">{{data.name}}, {{data.sys.country}}</h1>
+        </div>
+        <div class="subcontainer2">
+            <h2 class="main__weather">{{main}}</h2>
+            <div id="icon"><img id="wicon" src="{{icon}}" alt="Weather icon"></div>
+        </div>
+    </div>
+    <hr>
+    <div class="data__container">
+        <div class="weather__container">
+            <div class="temperature__container">
+                <h2 class="temp__title">Temperature</h2>
+                <h3 class="current__temp">{{data.main.temp}} &degC</h3>
+            </div>
+            <div class="humidity__container">
+                <h2 class="humid__title">Humidity</h2>
+                <h3 class="current__humidity">{{data.main.humidity}}%</h3>
+            </div>
+            <div class="wind__container">
+                <h2 class="wind__title">Wind</h2>
+                <h3 class="current__wind">{{data.wind.speed}}meter/sec</h3>
+            </div>
+            <div class="clouds">
+                <h2 class="clouds__title">Clouds</h2>
+                <h3 class="clouds">{{data.clouds.all}}%</h3>
+            </div>
+        </div>
+    </div>
+</div>
