@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="node_modules/handlebars/dist/handlebars.js"></script>
+</head>
+<body>
+    <div id="template"></div>
+</body>
+<script type="text/javascript">
+    const subjects = ["shark", "popcorn", "poison", "fork", "cherry", "toothbrush", "cannon"];
+    const punchlines = ["watch movie with", "spread some love", "put on cake", 
+            "clean toilets", "go to the moon", "achieve world piece", "help people learn programing"];
+
+    function getLines(subjectsArray, punchLinesArray) {
+        const subject = subjectsArray[Math.floor(Math.random() * 7)];
+        const punchline = punchLinesArray[Math.floor(Math.random() * 7)];
+
+        const source = "<h1>{{subject}} is great to {{punchline}}</h1>";
+        const template = Handlebars.compile(source);
+
+        const data = template({ subject, punchline });
+        document.querySelector("#template").innerHTML += data;
+        }        
+
+    getLines(subjects, punchlines);
+</script>
+
+</html>
