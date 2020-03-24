@@ -1,0 +1,14 @@
+{
+    "table": [
+        {
+            "id": "3a40c0fe-056c-4986-bb7a-238bae815fc6",
+            "title": "My first blog",
+            "content": "Lorem ipsum"
+        },
+        {
+            "id": "0c7cc138-4e42-4c56-8f6d-f3f69c59db2d",
+            "title": "Message",
+            "content": "Message to Commander"
+        }
+    ]
+}
