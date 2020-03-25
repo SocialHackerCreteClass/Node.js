@@ -121,7 +121,11 @@ For more research, use the following resources:
 - [Express JS Crash Course](https://www.youtube.com/watch?v=L72fhGm1tfE)
 - [Going out to eat and understanding the basics of Express.js](https://medium.freecodecamp.org/going-out-to-eat-and-understanding-the-basics-of-express-js-f034a029fb66)
 
-## 5. (Optional) How does the internet work?
+## 5. Full Guide to Node.js
+
+- Watch the YouTube Series and Code Along: [Node JS Tutorial for Beginners - YouTube](https://www.youtube.com/playlist?list=PL4cUxeGkcC9gcy9lrvMJ75z9maRw4byYp)
+
+## 6. (Optional) How does the internet work?
 
 This part is optional, but still recommended to understand the wider context of what we as web developers deal with, namely `the internet`:
 
