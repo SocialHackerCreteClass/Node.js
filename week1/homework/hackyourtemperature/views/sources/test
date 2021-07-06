@@ -1,0 +1,21 @@
+//https://api.openweathermap.org/data/2.5/weather?APPID=4917f6945526f70f88f8b219a8566e4a
+const express = require('express')
+const app = express()
+var exphbs = require('express-handlebars');
+
+
+app.post("/weather", () => {
+    const cityName = req.body.cityName
+    const APIURL = `/api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=4917f6945526f70f88f8b219a8566e4a`
+    axios.post(APIURL)
+        .then(response => {
+            // handle success
+            console.log(response);
+        })
+        .catch(function (error) {
+            // handle error
+            console.log(error);
+        })
+
+
+})

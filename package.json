@@ -1,0 +1,29 @@
+{
+  "name": "Node.js",
+  "version": "1.0.0",
+  "description": "> If you are following the curriculum we recommend you to start with module 1: [HTML/CSS/GIT](https://github.com/SocialHackersCodeSchool/HTML-CSS). To get a complete overview of the SocialHackersCodeSchool curriculum first, click [here](https://github.com/SocialHackersCodeSchool/curriculum).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spiropoulos94/Node.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spiropoulos94/Node.js/issues"
+  },
+  "homepage": "https://github.com/spiropoulos94/Node.js#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "fetch": "^1.1.0",
+    "follow-redirects": "^1.10.0",
+    "handlebars": "^4.7.3",
+    "left-pad": "^1.3.0",
+    "node-fetch": "^2.6.0"
+  },
+  "devDependencies": {}
+}
